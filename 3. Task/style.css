@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.table-users{
+    width: 80%;
+    margin: 40px 10%;
+    border: solid 1px gray;
+    text-align: center;
+}
+
+.tbody-users{
+    min-height: 100px;
+}
+
+th{
+    padding: 10px;
+}
+
+td{
+    border: solid 1px gray;
+    margin: 0;
+    height: 50px;
+}
+
+.user-add-form{
+    position: relative;
+    width: 80%;
+    margin: 40px 10%;
+}
+
+input{
+    height: 34px;
+}
+
+.user-add-button{
+    color: green;
+    border: solid 1px green;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.user-add-button:hover{
+    background-color: green;
+    color: white;
+    transition: 0.3s;
+}
+
+.delete-table-user-btn{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    border: solid 1px red;
+    color: red;
+}
+
+.delete-table-user-btn:hover{
+    color: white;
+    background-color: red;
+    transition: 0.3s;
+}
+
+.edit-table-user-btn{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    color: purple;
+    border: solid 1px purple;
+}
+
+.edit-table-user-btn:hover{
+    color: white;
+    background-color: purple;
+    transition: 0.3s;
+}
+
+.delete-multiple-btn{
+    padding: 10px 15px;
+    border: solid 1px red;
+    color: red;
+}
+
+.delete-multiple-btn:hover{
+    background-color: red;
+    color: white;
+    transition: 0.3s;
+}

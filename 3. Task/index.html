@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./style.css" rel="stylesheet">
+    <link href="./model-window-style.css" rel="stylesheet">
+</head>
+<body id="body">
+
+    <form name="add-user" id="form-add-user" onsubmit="return false" class="user-add-form">
+        <div>Name</div>
+        <input name="name">
+
+        <div>Surname</div>
+        <input name="surname"> 
+
+        <div>Email</div>
+        <input name="email">
+
+        <button class="user-add-button" onclick="addUser()">Add</button>
+    </form>
+    
+    <table class="table-users">
+        <thead id="thead-users">
+            <tr>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Email</th>
+                <th>Date</th>
+                <th></th>
+                <th></th>
+                <th>
+                    <button onclick="deleteMultipleRows()" class="delete-multiple-btn">Delete multiple</button>
+                </th>
+            </tr>
+        </thead>
+        <tbody id="table-users" class="tbody-users">
+        </tbody>
+    </table>
+
+
+</body>
+<script src="./script.js"></script>
+</html>
